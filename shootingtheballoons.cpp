@@ -1,3 +1,6 @@
+/*
+binary search for the sum possible and count the number of subarrays with 2 pointers
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
