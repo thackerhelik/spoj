@@ -2,6 +2,8 @@
 Square root can be taken only 6 times for 1e18 so till that we update full upto leaf
 else we just put everything as 1 afterwards
 take care of x > y case
+Time complexity: query is logn update is logn but initial 6 queries should be O(n) so 6*n + logn
+total q*(logn + (6*n + logn))
 */
 #include <bits/stdc++.h>
 
